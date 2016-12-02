@@ -17,6 +17,15 @@ html {
   top: 400px;
   right: 0;
 }
-
+#dolphin img{
+   -moz-transition: transform 0.5s;
+   -webkit-transition: transform 0.5s;
+}
 /* Write your solution here */
 
+@media only screen and (min-width: 642px) and (max-width:1090px){
+  #dolphin img{
+    transform: translateX(-25px) translateY(-250px) rotate(-90deg);
+}
+  }
+}
