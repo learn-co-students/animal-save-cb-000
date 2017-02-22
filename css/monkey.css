@@ -9,4 +9,27 @@ html {
 }
 
 /* Write your solution here */
+@media all and (min-width: 1100px) and (max-width: 1200px) {#monkey {
+	position: absolute;
+	top: -40px;
+	transform:rotate(30deg);
+}}	
 
+@media all and (min-width: 700px) and (max-width: 1099px) {#monkey {
+	position: absolute;
+	top: -40px;
+	transform:rotate(10deg);
+}}	
+
+
+@media all and (min-width: 501px) and (max-width: 699px) {#monkey {
+	position: absolute;
+	top: -40px;
+	transform:rotate(0deg);
+}}	
+
+@media all and (min-width: 440px) and (max-width: 500px) {#monkey {
+	position: absolute;
+	top: -40px;
+	transform:rotate(-30deg);
+}}	
