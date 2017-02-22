@@ -33,3 +33,10 @@ html {
  }
 
 }
+
+/*FULL FLIP JUST FOR YOU!*/
+@media only screen and (max-width:638px) {
+  #dolphin {
+    transform: rotate(-180deg);
+  }
+}
