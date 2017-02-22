@@ -16,6 +16,7 @@ html {
   position: absolute;
   top: 400px;
   right: 0;
+  transition: all 0.5s ease; /* Use a smooth animation for the *FLIP* */
 }
 
 /* Write your solution here */
@@ -24,8 +25,11 @@ html {
 
  #dolphin {
    top:100px;
-   transform: rotate(270deg);
- }
+   transform: rotate(-90deg);
 
+ }
+ #dolphin img {
+   transition: all 0.5 ease;
+ }
 
 }
