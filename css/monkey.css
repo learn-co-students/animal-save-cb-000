@@ -10,3 +10,43 @@ html {
 
 /* Write your solution here */
 
+@media (min-width: 474px) and (max-width: 1213px) {
+  #monkey {
+    top: 0px;
+  }
+}
+
+
+@media (min-width: 600px) and (max-width: 640px) {
+  #monkey {
+    top: 15px;
+  }
+}
+
+
+@media (min-width: 725px) and (max-width: 775px) {
+  #monkey {
+    top: 50px;
+  }
+}
+
+
+@media (min-width: 776px) and (max-width: 835px) {
+  #monkey {
+    top: 260px;
+  }
+}
+
+
+@media (min-width: 836px) and (max-width: 890px) {
+  #monkey {
+    top: 130px;
+  }
+}
+
+
+@media (min-width: 975px) and (max-width: 1010px) {
+  #monkey {
+    top: 45px;
+  }
+}

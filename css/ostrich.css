@@ -10,3 +10,12 @@ html {
 
 /* Write your solution here */
 
+@media (min-width: 390px) and (max-width: 1320px) {
+  #ostrich {
+    top: -20px;
+  }
+
+  #ostrich img {
+    height: 360px;
+  }
+}
