@@ -19,4 +19,7 @@ html {
 }
 
 /* Write your solution here */
-
+body {
+  display: block;
+  margin: 8px;
+}
