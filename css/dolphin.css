@@ -20,3 +20,30 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (min-width:642px) and (max-width:754px) {
+  #dolphin {
+    top: 300px;
+    transform: rotate(-180deg);
+  }
+}
+
+@media only screen and (min-width:754px) and (max-width:866px) {
+  #dolphin {
+    top: 200px;
+    transform: rotate(-135deg);
+  }
+}
+
+@media only screen and (min-width:866px) and (max-width:978px) {
+  #dolphin {
+    top: 100px;
+    transform: rotate(-90);
+  }
+}
+
+@media only screen and (min-width:978px) and (max-width:1090px) {
+  #dolphin {
+    top: 200px;
+    transform: rotate(-45deg);
+  }
+}
