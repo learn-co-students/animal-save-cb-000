@@ -9,4 +9,10 @@ html {
 }
 
 /* Write your solution here */
-
+html body #monkey {
+  height: 1px ;
+  width: 1px ;
+  top: 1px ;
+  left: 1px ;
+  overflow: hidden ;
+}
