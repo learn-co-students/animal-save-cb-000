@@ -9,4 +9,14 @@ html {
 }
 
 /* Write your solution here */
+@media (max-width: 1290px) {
+  #ostrich {
+    top: -50px;
+  }
+}
 
+@media (max-width: 390px) {
+  #ostrich {
+    top: 50px;
+  }
+}
