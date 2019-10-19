@@ -16,7 +16,27 @@ html {
   position: absolute;
   top: 400px;
   right: 0;
+  transition: all 0.5s ease; /* Use a smooth animation for the *FLIP* */
 }
 
 /* Write your solution here */
 
+@media only screen and (min-width:639px) and (max-width: 1151px) {
+
+ #dolphin {
+   top:100px;
+   transform: rotate(-90deg);
+
+ }
+ #dolphin img {
+   transition: all 0.5 ease;
+ }
+
+}
+
+/*FULL FLIP JUST FOR YOU!*/
+@media only screen and (max-width:638px) {
+  #dolphin {
+    transform: rotate(-180deg);
+  }
+}
